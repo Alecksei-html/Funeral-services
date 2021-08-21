@@ -1,0 +1,128 @@
+.body, html {
+    max-width: 1400px;
+    display:block;
+    box-sizing: border-box;
+    margin: 15px;
+    justify-content: center; 
+    background-color:dimgrey;
+}
+.top-menu {
+    margin: 15px;
+    border-radius: 10px;
+}
+.contact {
+    font-size: 14pt;
+    font-family:sans-serif;
+    color: aliceblue;
+}
+.col {
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.nav-link {
+    color:black;
+    font-family: serif;
+    font-size: 14pt;
+}
+.content-header {
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.contact {
+    font-size: 14pt;
+    font-family:sans-serif;
+    color: black;
+}
+.logo {
+    margin: 5px;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  margin: 15px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-family: serif;
+  font-size: 14px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.css-adaptive {
+  display: block;
+  width: 70%;
+  height: 400px; 
+  text-align: center;
+}
+.map img {
+  display: inline-block;
+  width: 70%;
+  height: 400px; 
+}
+.map {
+   text-align: center;
+}
+.banner {
+    border-radius: 10px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    height:fit-content;
+}
+.title-section {
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    font-family: serif;
+    height: auto;
+}
+.p {
+    font-size: 16pt;
+}
+.content {
+    margin: 15px;
+    font-family: serif;
+    text-align: left;
+    font-size: 14pt;
+}
+.content h2 {
+    text-align: center;
+}
+.content1 {
+    text-align: center;
+    margin: 15px;
+    font-family: serif;
+}
+.content2 {
+    text-align: center;
+    margin: 15px;
+    font-family: serif;
+    flex-wrap: wrap;
+    display: flex;
+}
+.container {
+    justify-content: center;
+    display:flex;
+    margin: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.text-section {
+    margin: 50px;
+}
