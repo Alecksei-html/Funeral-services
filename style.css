@@ -126,3 +126,10 @@ ul.breadcrumb li a:hover {
 .text-section {
     margin: 50px;
 }
+.hr-line {
+	margin: 10px 150px 10px 150px;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px solid rgb(0, 0, 0);
+}
